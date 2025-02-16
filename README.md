@@ -30,6 +30,12 @@ react-native link react-native-file-viewer
 
 #### Extra step (Android only)
 
+##### Using RN-Integrate
+```sh
+npx react-native-integrate react-native-file-viewer
+```
+
+##### Manual
 If your app is targeting **Android 11 (API level 30) or newer**, the following extra step is required, as described in [Declaring package visibility needs](https://developer.android.com/training/package-visibility/declaring) and [Package visibility in Android 11](https://medium.com/androiddevelopers/package-visibility-in-android-11-cc857f221cd9).
 
 Specifically:
